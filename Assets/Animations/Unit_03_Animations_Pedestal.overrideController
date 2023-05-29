@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unit_03_Animations_Pedestal
+  m_Controller: {fileID: 9100000, guid: b50a0a0b8c2069b4c817ee73453e8953, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -5099603970213671239, guid: c0f71c63ba3a37f43b7de0c3d2dbaee1, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 9f29a988e4347a54d97146e583a3fa55, type: 3}

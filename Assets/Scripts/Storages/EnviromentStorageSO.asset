@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcb883954230f54081a067a473275c9, type: 3}
+  m_Name: EnviromentStorageSO
+  m_EditorClassIdentifier: 
+  _enviromentSets:
+  - enviromentType: 1
+    cellsColor: {r: 0.3127893, g: 0.8226182, b: 0.9339623, a: 1}
+    randomRotateChild: 1
+    enviromentObjects:
+    - {fileID: 5605793325072449796, guid: 4b434205a43c5ba4694f6ad98ba30058, type: 3}
+    - {fileID: 5605793325072449796, guid: 4b434205a43c5ba4694f6ad98ba30058, type: 3}
+    - {fileID: 4916555142414596791, guid: 07753624f4af6054c849fa09ff4b8550, type: 3}
+    - {fileID: 5039023412998675366, guid: d984aa6bf5526bf48916b14c59702842, type: 3}
+  - enviromentType: 2
+    cellsColor: {r: 0.16558382, g: 0.5754717, b: 0.17534302, a: 1}
+    randomRotateChild: 0
+    enviromentObjects:
+    - {fileID: 1110802649544280, guid: c903a5b42ec9ea04089eb3a1f02c51c8, type: 3}
+    - {fileID: 1543334010308034, guid: 40ffbe342e4e9084ba744fe2d7f087c2, type: 3}
+  - enviromentType: 3
+    cellsColor: {r: 0.754717, g: 0.55885756, b: 0.18155926, a: 1}
+    randomRotateChild: 0
+    enviromentObjects:
+    - {fileID: 1882949367459502, guid: 7adcc5ca25de8e543ad11014ec7de3d3, type: 3}
+    - {fileID: 1090772466834840, guid: 3384ab3a2854b1344ac4ff79c4386138, type: 3}
+    - {fileID: 1082868720469738, guid: 81d0b563b01a9e54da5fb7a2190d0dc1, type: 3}
+    - {fileID: 1082868720469738, guid: 81d0b563b01a9e54da5fb7a2190d0dc1, type: 3}
+    - {fileID: 1882949367459502, guid: 7adcc5ca25de8e543ad11014ec7de3d3, type: 3}
+  - enviromentType: 4
+    cellsColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+    randomRotateChild: 0
+    enviromentObjects:
+    - {fileID: 1321364810359602, guid: 86ecd374d18a24841bb8d7ea4a14c0eb, type: 3}
+    - {fileID: 1321364810359602, guid: 86ecd374d18a24841bb8d7ea4a14c0eb, type: 3}
+    - {fileID: 1321364810359602, guid: 86ecd374d18a24841bb8d7ea4a14c0eb, type: 3}
+    - {fileID: 1975800551559042, guid: f4da999687480fd4abc77b148f373c54, type: 3}
+    - {fileID: 1543334010308034, guid: 40ffbe342e4e9084ba744fe2d7f087c2, type: 3}

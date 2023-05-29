@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319e00b53aaa32644aaeb2458e4ba186, type: 3}
+  m_Name: StateStorageSO
+  m_EditorClassIdentifier: 
+  saveString: _countrySave_01
+  country:
+    states:
+    - stateType: 13
+      grouping: 0
+    - stateType: 10
+      grouping: 0
+    - stateType: 3
+      grouping: 0
+    - stateType: 5
+      grouping: 0
+    - stateType: 6
+      grouping: 0
+    - stateType: 14
+      grouping: 2
+    - stateType: 12
+      grouping: 2
+    - stateType: 0
+      grouping: 3
+    - stateType: 1
+      grouping: 1
+    - stateType: 8
+      grouping: 1
+    - stateType: 2
+      grouping: 2
+    - stateType: 4
+      grouping: 2
+    - stateType: 7
+      grouping: 3
+    - stateType: 9
+      grouping: 1
+    - stateType: 11
+      grouping: 2
+  stateSettings:
+  - stateType: 0
+    statePrefab: {fileID: 8310021386336122142, guid: 1443104b2366ab442ab47cb162c3634f, type: 3}
+    stateSight: {fileID: 7705515344834139200, guid: 22c3061ffc850ae43979b11174b0279f, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1, y: 1, z: 1}
+    eulerRotation: {x: 0, y: 30, z: 0}
+  - stateType: 1
+    statePrefab: {fileID: 5372117575195666394, guid: 86cd4195912f05149b505ebd28107dde, type: 3}
+    stateSight: {fileID: 3191328614992331168, guid: 57cdc42183c65b64f900d465f75e5fdb, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 0.7, y: 1, z: 0.7}
+    eulerRotation: {x: 0, y: 0, z: 0}
+  - stateType: 2
+    statePrefab: {fileID: 6790944450056085582, guid: 43f7ed8dc0c4e5a4485a89ab244f09c4, type: 3}
+    stateSight: {fileID: 973242391848445365, guid: 58b522fa87db7504a8755adc73c80217, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.2, y: 1, z: 1.2}
+    eulerRotation: {x: 0, y: 90, z: 0}
+  - stateType: 3
+    statePrefab: {fileID: 9021291335771655982, guid: d8314523e2ff85c4787d876c8534150a, type: 3}
+    stateSight: {fileID: 3686936985191235218, guid: def6a1e1dbaaa514ba2c6c36009cb2f7, type: 3}
+    statePosition: {x: -7, y: 0, z: 0}
+    stateScale: {x: 1, y: 1, z: 1}
+    eulerRotation: {x: 0, y: 30, z: 0}
+  - stateType: 4
+    statePrefab: {fileID: 6881044661286969470, guid: dfdf5d17efd15a14fb58857aaac066d7, type: 3}
+    stateSight: {fileID: 8078574231553046184, guid: a7087fcdd637c1d49a8492a0a8adadec, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.4, y: 1, z: 1.4}
+    eulerRotation: {x: 0, y: 90, z: 0}
+  - stateType: 5
+    statePrefab: {fileID: -5707799431001496224, guid: d7979564980f331429fccfd6dc9d663b, type: 3}
+    stateSight: {fileID: 6592747292190099158, guid: d40ab41d5438ffa418798b12f66e8d93, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1, y: 1, z: 1}
+    eulerRotation: {x: 0, y: 90, z: 0}
+  - stateType: 6
+    statePrefab: {fileID: 7859070506742290654, guid: 4d2b1cd7f8014c64fbb219d6cc35136f, type: 3}
+    stateSight: {fileID: 9215867832960583330, guid: b95c7317325cf2c48a7ebfd51cda332d, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.4, y: 1, z: 1.4}
+    eulerRotation: {x: 0, y: 90, z: 0}
+  - stateType: 7
+    statePrefab: {fileID: -3914293056401188487, guid: 2905743578b166f4f9d0e6c57c82f23a, type: 3}
+    stateSight: {fileID: 8517383755652834894, guid: 004bd5736f9c07148b060c98dfde625c, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1, y: 1, z: 1}
+    eulerRotation: {x: 0, y: 0, z: 0}
+  - stateType: 8
+    statePrefab: {fileID: 6666648783528392443, guid: 8f6411db2fcefdd4695f9a6670031974, type: 3}
+    stateSight: {fileID: 7179797420412546794, guid: adedb0d3a260ab6489fdd20a09cb4372, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1, y: 1, z: 1}
+    eulerRotation: {x: 0, y: 0, z: 0}
+  - stateType: 9
+    statePrefab: {fileID: 2709385926801675203, guid: e0505c804532ba241ad97e3e8e0177cc, type: 3}
+    stateSight: {fileID: 3424387371750056914, guid: bb3e189c5acb9ce4ebb14da7b4469f06, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.4, y: 1, z: 1.4}
+    eulerRotation: {x: 0, y: 90, z: 0}
+  - stateType: 10
+    statePrefab: {fileID: -3525013759517061247, guid: 5f7e7443d18d417489d14ed47ed87451, type: 3}
+    stateSight: {fileID: 4288289228026213893, guid: 9acdbdbf96752934b95e6e6d707a3873, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.2, y: 1, z: 1.2}
+    eulerRotation: {x: 0, y: 75, z: 0}
+  - stateType: 11
+    statePrefab: {fileID: 6344715522393377549, guid: 2487362dad7d21545bde176705ec8474, type: 3}
+    stateSight: {fileID: 176124592409852339, guid: 96505b51501aa2c4b882c693e7270805, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 0.6, y: 1, z: 0.6}
+    eulerRotation: {x: 0, y: 90, z: 0}
+  - stateType: 12
+    statePrefab: {fileID: 3010170765391983845, guid: f871bdb90ea347146bfbf3cfb0bfd3a0, type: 3}
+    stateSight: {fileID: 8140987159643496845, guid: da9754543a214a74d8777ca703988723, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.3, y: 1, z: 1.3}
+    eulerRotation: {x: 0, y: 0, z: 0}
+  - stateType: 13
+    statePrefab: {fileID: 2072072665781771509, guid: 1b28eb72fec6aef4d9189e776e766736, type: 3}
+    stateSight: {fileID: 1426344193025303706, guid: 36680dfa263c9dc4589d3bd3737d9783, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.4, y: 1, z: 1.4}
+    eulerRotation: {x: 0, y: -80, z: 0}
+  - stateType: 14
+    statePrefab: {fileID: -6436891597302548322, guid: 69bcdf3eb42eac54daa891d37a08ddc0, type: 3}
+    stateSight: {fileID: 1164306771546672468, guid: 61965b1298c394148804710c70b46da7, type: 3}
+    statePosition: {x: 0, y: 0, z: 0}
+    stateScale: {x: 1.2, y: 1, z: 1.2}
+    eulerRotation: {x: 0, y: 90, z: 0}

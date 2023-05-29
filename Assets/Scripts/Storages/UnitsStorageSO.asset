@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 092512715bc09774e8f0e986c5ab738f, type: 3}
+  m_Name: UnitsStorageSO
+  m_EditorClassIdentifier: 
+  timeToFindNewPath: 0.4
+  countSpawnUnits: 3
+  units:
+  - unitType: 0
+    isHero: 0
+    fightType: 0
+    unitPrefabPedestal: {fileID: 141867899259404218, guid: 2bd6bb296fb584b44971a913ac396022, type: 3}
+    unitPrefab: {fileID: 8614791130989352738, guid: 76ad6f2d07c9d944783405e7e010d5b9, type: 3}
+    spawnProbability: 0
+    unitHealth: 4
+    unitSpeed: 0.4
+    unitDurationPainting: 0
+    unitPaintCellCount: 1
+    waitForShoot: 1
+    unitDamage: 1
+    unitPrice: 4
+  - unitType: 1
+    isHero: 0
+    fightType: 1
+    unitPrefabPedestal: {fileID: -6802574021611443478, guid: 851ad05bceea83246aeef70230f2b814, type: 3}
+    unitPrefab: {fileID: 5044258471618166404, guid: eaaeb3453e944ca41b37d7c458ebc50f, type: 3}
+    spawnProbability: 80
+    unitHealth: 8
+    unitSpeed: 0.8
+    unitDurationPainting: 0.4
+    unitPaintCellCount: 3
+    waitForShoot: 0.5
+    unitDamage: 1
+    unitPrice: 8
+  - unitType: 2
+    isHero: 0
+    fightType: 1
+    unitPrefabPedestal: {fileID: 291947047025571475, guid: eb5d7afd6b3b2e342a6e8ef1bfe45149, type: 3}
+    unitPrefab: {fileID: 5349785139263844164, guid: f298f722bcacaa14e869737d5c9e2613, type: 3}
+    spawnProbability: 100
+    unitHealth: 14
+    unitSpeed: 1
+    unitDurationPainting: 0.5
+    unitPaintCellCount: 4
+    waitForShoot: 0.3
+    unitDamage: 3
+    unitPrice: 12
+  - unitType: 3
+    isHero: 1
+    fightType: 1
+    unitPrefabPedestal: {fileID: 5377458816126291434, guid: c32297b457635534a92a7fb4c09d4173, type: 3}
+    unitPrefab: {fileID: 3186855266733363195, guid: eabac0bfa0e63cc4498fd602aca6c708, type: 3}
+    spawnProbability: 100
+    unitHealth: 60
+    unitSpeed: 0.6
+    unitDurationPainting: 0.5
+    unitPaintCellCount: 4
+    waitForShoot: 0.5
+    unitDamage: 3
+    unitPrice: 15
+  - unitType: 4
+    isHero: 1
+    fightType: 1
+    unitPrefabPedestal: {fileID: 2802187335298807423, guid: c96c96c8b6d92f74681d76c9bad060bc, type: 3}
+    unitPrefab: {fileID: 8996437969687564466, guid: 7e458046e7c615944818a274f02bad8c, type: 3}
+    spawnProbability: 100
+    unitHealth: 60
+    unitSpeed: 0.6
+    unitDurationPainting: 0.5
+    unitPaintCellCount: 4
+    waitForShoot: 0.5
+    unitDamage: 3
+    unitPrice: 15
+  - unitType: 5
+    isHero: 1
+    fightType: 1
+    unitPrefabPedestal: {fileID: 3063777666288864012, guid: 466640d4010f09f4ab48bacb2596b502, type: 3}
+    unitPrefab: {fileID: 4099670480466783715, guid: e2de353410236c64fb583e8d3efdfc12, type: 3}
+    spawnProbability: 100
+    unitHealth: 60
+    unitSpeed: 0.6
+    unitDurationPainting: 0.5
+    unitPaintCellCount: 4
+    waitForShoot: 0.5
+    unitDamage: 3
+    unitPrice: 15
+  - unitType: 6
+    isHero: 0
+    fightType: 0
+    unitPrefabPedestal: {fileID: 291947047025571475, guid: eb5d7afd6b3b2e342a6e8ef1bfe45149, type: 3}
+    unitPrefab: {fileID: 5349785139263844164, guid: f298f722bcacaa14e869737d5c9e2613, type: 3}
+    spawnProbability: 100
+    unitHealth: 30
+    unitSpeed: 1
+    unitDurationPainting: 0.5
+    unitPaintCellCount: 4
+    waitForShoot: 0.5
+    unitDamage: 3
+    unitPrice: 15
+  turrel:
+    turrelPedestalPrefab: {fileID: 7229219795057192557, guid: 5d0194383f42f9149a6eeb75f2982555, type: 3}
+    turrelPrefab: {fileID: 7777413683156613721, guid: bf4c09842aae05e438ff5ccefeebf169, type: 3}
+    price: 12
+    turrelHealth: 1000
+    amountPaintShot: 25

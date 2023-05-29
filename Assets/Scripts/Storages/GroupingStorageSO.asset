@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3554f931d4bf89643b390ce81c049b5b, type: 3}
+  m_Name: GroupingStorageSO
+  m_EditorClassIdentifier: 
+  grouping:
+  - groupingType: 0
+    sprite: {fileID: 21300000, guid: 976a008d7d3f0c74e8d9726f733cff88, type: 3}
+    color: {r: 0, g: 0.5176471, b: 1, a: 1}
+    colorIcon: {r: 0, g: 0.5176471, b: 1, a: 1}
+    colorBase: {r: 0, g: 0.5171318, b: 1, a: 1}
+    colorStickmans: {r: 0.010145942, g: 0.29426873, b: 0.7169812, a: 1}
+  - groupingType: 1
+    sprite: {fileID: 21300000, guid: 976a008d7d3f0c74e8d9726f733cff88, type: 3}
+    color: {r: 1, g: 0.18396229, b: 0.18396229, a: 1}
+    colorIcon: {r: 1, g: 0.18431373, b: 0.18431373, a: 1}
+    colorBase: {r: 1, g: 0.18431373, b: 0.18431373, a: 1}
+    colorStickmans: {r: 0.6886792, g: 0.1539036, b: 0.12019401, a: 1}
+  - groupingType: 2
+    sprite: {fileID: 21300000, guid: 976a008d7d3f0c74e8d9726f733cff88, type: 3}
+    color: {r: 1, g: 0.28435075, b: 0.14509803, a: 1}
+    colorIcon: {r: 1, g: 0.28627452, b: 0.14509805, a: 1}
+    colorBase: {r: 1, g: 0.28627452, b: 0.14509805, a: 1}
+    colorStickmans: {r: 0.7924528, g: 0.2553318, b: 0.12335351, a: 1}
+  - groupingType: 3
+    sprite: {fileID: 21300000, guid: 976a008d7d3f0c74e8d9726f733cff88, type: 3}
+    color: {r: 0.65882355, g: 0.33333334, b: 1, a: 1}
+    colorIcon: {r: 0.65882355, g: 0.33333334, b: 1, a: 1}
+    colorBase: {r: 0.65751356, g: 0.33333334, b: 1, a: 1}
+    colorStickmans: {r: 0.5049219, g: 0, b: 1, a: 1}
